@@ -10,7 +10,7 @@
     </parent>
     <groupId>ru.fcpsr</groupId>
     <artifactId>qr</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>qr-fcpsr-2</name>
     <description>qr-fcpsr-2</description>
     <url/>
