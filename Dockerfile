@@ -1,6 +1,6 @@
 FROM alpine/git
 WORKDIR /app
-RUN git clone https://gitea.myhome.ru.net/morgan/qr-fcpsr-2.git
+RUN git clone https://github.com/IvanMTD/qr-fcpsr.git
 
 FROM maven
 WORKDIR /app
