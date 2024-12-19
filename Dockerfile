@@ -4,7 +4,7 @@ RUN git clone https://github.com/IvanMTD/qr-fcpsr.git
 
 FROM maven
 WORKDIR /app
-COPY --from=0 /app/qr-fcpsr-2 /app
+COPY --from=0 /app/qr /app
 RUN mvn clean package -DskipTests
 
 FROM bellsoft/liberica-openjdk-alpine
